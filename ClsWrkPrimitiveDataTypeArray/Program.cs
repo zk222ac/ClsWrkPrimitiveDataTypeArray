@@ -28,7 +28,7 @@ namespace ClsWrkPrimitiveDataTypeArray
             for (int i = 0; i < array.Length; i++)
             {
                 int result = array[i];
-                Console.WriteLine($" Collection of Elements :{result}");
+                Console.WriteLine($"  Elements[{i}] = {result}");
             }
             Console.WriteLine("ForEach Loop.......................");
 
@@ -36,9 +36,7 @@ namespace ClsWrkPrimitiveDataTypeArray
             {
                 Console.WriteLine($" Collection of Elements :{items}");
             }
-
             Console.ReadKey();
-
         }
     }
 }
